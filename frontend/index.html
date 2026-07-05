@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malko AI Concierge Platform</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="app-header" class="app-header">
+        <h1 id="app-logo" class="app-logo">Malko AI</h1>
+        <p id="app-subtitle" class="app-subtitle">AI Concierge Platform</p>
+    </header>
+
+    <main id="chat-container" class="chat-container">
+        <section id="chat-messages" class="chat-messages" aria-live="polite" aria-label="Chat messages">
+            <p id="chat-empty-state" class="chat-empty-state">
+                Hello! I'm Malko AI. How can I help you today?
+            </p>
+        </section>
+
+        <section id="chat-input-area" class="chat-input-area" aria-label="Message input">
+            <label for="chat-input" class="sr-only">Type your message</label>
+            <input
+                type="text"
+                id="chat-input"
+                class="chat-input"
+                name="chat-input"
+                placeholder="Type your message..."
+                autocomplete="off"
+            >
+            <button type="button" id="chat-send-btn" class="chat-send-btn">
+                Send
+            </button>
+        </section>
+    </main>
+
+    <footer id="app-footer" class="app-footer">
+        <p>Malko AI Concierge Platform</p>
+    </footer>
+
+    <script src="js/api.js"></script>
+    <script src="js/chat.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
