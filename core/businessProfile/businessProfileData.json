@@ -1,0 +1,58 @@
+{
+  "businessName": "Annam Thottam Restaurant",
+  "businessType": "Restaurant",
+  "description": "Annam Thottam Restaurant is a family-friendly restaurant in Chengalpattu serving authentic South Indian vegetarian and non-vegetarian cuisine, including traditional Chettinad specialties, tiffin items, and daily meals prepared with locally sourced ingredients.",
+  "phone": "+91 44 2742 5678",
+  "email": "contact@annamthottam.com",
+  "website": "https://www.annamthottam.com",
+  "address": "12, GST Road, Near Chengalpattu Bus Stand",
+  "city": "Chengalpattu",
+  "state": "Tamil Nadu",
+  "country": "India",
+  "workingHours": {
+    "monday": "7:00 AM - 10:30 PM",
+    "tuesday": "7:00 AM - 10:30 PM",
+    "wednesday": "7:00 AM - 10:30 PM",
+    "thursday": "7:00 AM - 10:30 PM",
+    "friday": "7:00 AM - 10:30 PM",
+    "saturday": "7:00 AM - 11:00 PM",
+    "sunday": "7:00 AM - 11:00 PM"
+  },
+  "socialMedia": {
+    "facebook": "https://facebook.com/annamthottamrestaurant",
+    "instagram": "https://instagram.com/annamthottam_restaurant",
+    "twitter": "https://twitter.com/annamthottam",
+    "youtube": "https://youtube.com/@annamthottamrestaurant"
+  },
+  "faqs": [
+    {
+      "question": "Do you provide home delivery?",
+      "answer": "Yes, we offer home delivery within Chengalpattu through our own delivery team as well as Swiggy and Zomato."
+    },
+    {
+      "question": "Do you have parking available?",
+      "answer": "Yes, we have free two-wheeler and four-wheeler parking available in front of the restaurant."
+    },
+    {
+      "question": "Do you serve non-vegetarian food?",
+      "answer": "Yes, we serve both vegetarian and non-vegetarian dishes, including Chettinad chicken and mutton specials."
+    },
+    {
+      "question": "Can I book the restaurant for private events?",
+      "answer": "Yes, we have a banquet hall that can be booked for birthdays, family functions, and small corporate events."
+    },
+    {
+      "question": "Do you accept online payments?",
+      "answer": "Yes, we accept UPI, credit/debit cards, and all major digital wallets."
+    }
+  ],
+  "services": [
+    "Dine-in",
+    "Home Delivery",
+    "Takeaway",
+    "Outdoor Catering",
+    "Banquet Hall Booking",
+    "Party Orders",
+    "Online Table Reservation"
+  ]
+}

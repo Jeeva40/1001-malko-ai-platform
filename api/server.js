@@ -8,13 +8,17 @@ console.log("Loading chat router...");
 const chatRouter = require("./chat");
 console.log("Chat router loaded:", typeof chatRouter);
 
+const businessProfileRouter = require("./businessProfile");
+
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 app.use("/api/chat", chatRouter);
+app.use("/api/business-profile", businessProfileRouter);
 
 console.log("✅ Chat router mounted at /api/chat");
+console.log("✅ Business Profile router mounted at /api/business-profile");
 
 app.get("/", (req, res) => {
   res.json({
