@@ -19,7 +19,7 @@ console.log("✅ Chat router mounted at /api/chat");
 app.get("/", (req, res) => {
   res.json({
     success: true,
-    message: "Welcome to Malko AI Concierge Platform",
+    message: "Welcome to Malko AI Platform",
     version: "1.0.0"
   });
 });
@@ -27,5 +27,5 @@ app.get("/", (req, res) => {
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`🚀 Malko AI Concierge Platform running on port ${PORT}`);
+  console.log(`🚀 Malko AI Platform running on port ${PORT}`);
 });

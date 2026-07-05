@@ -1,4 +1,4 @@
-// Application entry point — initializes the Malko AI Concierge Platform frontend
+// Application entry point — initializes the Malko AI Platform frontend
 document.addEventListener("DOMContentLoaded", () => {
     // Ensure chat.js has loaded and exposed its handler before proceeding
     if (typeof window.handleSend !== "function") {
