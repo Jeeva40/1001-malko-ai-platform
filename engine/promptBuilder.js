@@ -1,19 +1,19 @@
-const { getRestaurantContext } = require("../core/verticals/restaurant/restaurantVertical");
+const { getVerticalContext } = require("../core/verticals/verticalLoader");
 
 async function buildPrompt(context) {
-  const restaurantContext = await getRestaurantContext();
+  const verticalContext = await getVerticalContext("restaurant");
 
   return `Business Name:
-${restaurantContext.businessProfile.businessName}
+${verticalContext.businessProfile.businessName}
 
 Business Type:
-${restaurantContext.businessProfile.businessType}
+${verticalContext.businessProfile.businessType}
 
 Business Description:
-${restaurantContext.businessProfile.description}
+${verticalContext.businessProfile.description}
 
 Knowledge Base:
-${JSON.stringify(restaurantContext.knowledgeBase, null, 2)}
+${JSON.stringify(verticalContext.knowledgeBase, null, 2)}
 
 Customer Message:
 ${context.currentMessage}
