@@ -1,24 +1,22 @@
-const { getBusinessProfile } = require("../core/businessProfile/businessProfile");
-const { getKnowledgeBase } = require("../core/knowledgeBase/knowledgeBase");
+const { getRestaurantContext } = require("../core/verticals/restaurant/restaurantVertical");
 
-async function buildPrompt(userMessage) {
-  const businessProfile = await getBusinessProfile();
-  const knowledgeBase = await getKnowledgeBase();
+async function buildPrompt(context) {
+  const restaurantContext = await getRestaurantContext();
 
   return `Business Name:
-${businessProfile.businessName}
+${restaurantContext.businessProfile.businessName}
 
 Business Type:
-${businessProfile.businessType}
+${restaurantContext.businessProfile.businessType}
 
 Business Description:
-${businessProfile.description}
+${restaurantContext.businessProfile.description}
 
 Knowledge Base:
-${JSON.stringify(knowledgeBase, null, 2)}
+${JSON.stringify(restaurantContext.knowledgeBase, null, 2)}
 
 Customer Message:
-${userMessage}
+${context.currentMessage}
 
 Instructions:
 Answer as a helpful AI employee for this business.
