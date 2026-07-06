@@ -9,6 +9,7 @@ const chatRouter = require("./chat");
 console.log("Chat router loaded:", typeof chatRouter);
 
 const businessProfileRouter = require("./businessProfile");
+const knowledgeBaseRouter = require("./knowledgeBase");
 
 const app = express();
 
@@ -16,9 +17,11 @@ app.use(cors());
 app.use(express.json());
 app.use("/api/chat", chatRouter);
 app.use("/api/business-profile", businessProfileRouter);
+app.use("/api/knowledge-base", knowledgeBaseRouter);
 
 console.log("✅ Chat router mounted at /api/chat");
 console.log("✅ Business Profile router mounted at /api/business-profile");
+console.log("✅ Knowledge Base router mounted at /api/knowledge-base");
 
 app.get("/", (req, res) => {
   res.json({

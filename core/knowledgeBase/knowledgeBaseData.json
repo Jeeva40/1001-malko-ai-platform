@@ -1,0 +1,85 @@
+{
+  "cuisine": {
+    "types": ["South Indian", "Chettinad", "Tamil Nadu Traditional", "Tandoor", "Chinese"],
+    "vegOptions": true,
+    "nonVegOptions": true,
+    "description": "We specialize in authentic South Indian and Chettinad cuisine, along with popular Tandoor and Indo-Chinese dishes."
+  },
+  "specialties": [
+    "Chettinad Chicken Curry",
+    "Mutton Sukka",
+    "Ghee Roast Dosa",
+    "Filter Coffee",
+    "Meen Kuzhambu (Fish Curry)",
+    "Sunday Special Biryani",
+    "Podi Idli"
+  ],
+  "facilities": {
+    "airConditioning": true,
+    "banquetHall": true,
+    "familySeating": true,
+    "outdoorSeating": false,
+    "liveKitchenCounter": true,
+    "capacity": 80
+  },
+  "paymentMethods": [
+    "Cash",
+    "UPI",
+    "Credit Card",
+    "Debit Card",
+    "Paytm",
+    "Google Pay",
+    "PhonePe"
+  ],
+  "delivery": {
+    "available": true,
+    "ownDelivery": true,
+    "platforms": ["Swiggy", "Zomato"],
+    "deliveryRadiusKm": 8,
+    "averageDeliveryTimeMinutes": 35,
+    "minimumOrderAmount": 150
+  },
+  "reservationPolicy": {
+    "reservationsAccepted": true,
+    "advanceBookingRequired": false,
+    "advanceBookingRecommendedForGroupsAbove": 10,
+    "cancellationPolicy": "Reservations can be cancelled up to 2 hours before the booked time without any charge."
+  },
+  "parking": {
+    "available": true,
+    "twoWheeler": true,
+    "fourWheeler": true,
+    "valetService": false,
+    "capacity": 25
+  },
+  "wifi": {
+    "available": true,
+    "free": true,
+    "networkName": "AnnamThottam_Guest"
+  },
+  "accessibility": {
+    "wheelchairAccessible": true,
+    "rampAvailable": true,
+    "accessibleRestroom": true
+  },
+  "petPolicy": {
+    "petsAllowed": false,
+    "serviceAnimalsAllowed": true,
+    "notes": "Pets are not permitted inside the dining area, but service animals are always welcome."
+  },
+  "catering": {
+    "available": true,
+    "eventTypes": ["Weddings", "Birthday Parties", "Corporate Events", "Family Functions"],
+    "minimumGuestCount": 25,
+    "customMenuAvailable": true,
+    "advanceNoticeDays": 3
+  },
+  "customerPolicies": {
+    "dressCode": "Casual and smart casual attire welcome.",
+    "childFriendly": true,
+    "smokingAllowed": false,
+    "alcoholServed": false,
+    "outsideFoodAllowed": false,
+    "refundPolicy": "Refunds for online orders are processed within 5-7 business days for order or quality issues."
+  }
+}
