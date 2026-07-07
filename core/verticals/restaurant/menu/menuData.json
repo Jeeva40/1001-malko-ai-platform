@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "name": "Masala Dosa",
+    "category": "Breakfast",
+    "price": 70,
+    "vegetarian": true,
+    "spicy": false,
+    "available": true,
+    "description": "Crispy rice-and-lentil crepe filled with spiced potato masala, served with sambar and chutney."
+  },
+  {
+    "id": 2,
+    "name": "Idli Sambar",
+    "category": "Breakfast",
+    "price": 50,
+    "vegetarian": true,
+    "spicy": false,
+    "available": true,
+    "description": "Steamed rice cakes served with hot sambar and coconut chutney."
+  },
+  {
+    "id": 3,
+    "name": "Pongal",
+    "category": "Breakfast",
+    "price": 60,
+    "vegetarian": true,
+    "spicy": false,
+    "available": true,
+    "description": "Creamy rice and moong dal dish tempered with cumin, pepper, and ghee."
+  },
+  {
+    "id": 4,
+    "name": "Podi Idli",
+    "category": "Breakfast",
+    "price": 65,
+    "vegetarian": true,
+    "spicy": true,
+    "available": true,
+    "description": "Soft idlis tossed in spicy gunpowder podi and sesame oil."
+  },
+  {
+    "id": 5,
+    "name": "Chicken 65",
+    "category": "Starters",
+    "price": 220,
+    "vegetarian": false,
+    "spicy": true,
+    "available": true,
+    "description": "Deep-fried spicy chicken bites marinated in curry leaves, ginger, and chili."
+  },
+  {
+    "id": 6,
+    "name": "Gobi Manchurian",
+    "category": "Starters",
+    "price": 150,
+    "vegetarian": true,
+    "spicy": true,
+    "available": true,
+    "description": "Crispy cauliflower florets tossed in a tangy Indo-Chinese manchurian sauce."
+  },
+  {
+    "id": 7,
+    "name": "Fish Fry",
+    "category": "Starters",
+    "price": 240,
+    "vegetarian": false,
+    "spicy": true,
+    "available": true,
+    "description": "Marinated fish fillets shallow-fried with a spiced rice flour coating."
+  },
+  {
+    "id": 8,
+    "name": "Paneer Tikka",
+    "category": "Starters",
+    "price": 190,
+    "vegetarian": true,
+    "spicy": true,
+    "available": true,
+    "description": "Grilled cottage cheese cubes marinated in yogurt and tandoori spices."
+  },
+  {
+    "id": 9,
+    "name": "Veg Meals",
+    "category": "Meals",
+    "price": 130,
+    "vegetarian": true,
+    "spicy": false,
+    "available": true,
+    "description": "Full vegetarian thali with rice, sambar, rasam, poriyal, curd, and papad."
+  },
+  {
+    "id": 10,
+    "name": "Non-Veg Meals",
+    "category": "Meals",
+    "price": 180,
+    "vegetarian": false,
+    "spicy": false,
+    "available": true,
+    "description": "Full meal with rice, chicken curry, rasam, poriyal, curd, and papad."
+  },
+  {
+    "id": 11,
+    "name": "Curd Rice",
+    "category": "Meals",
+    "price": 90,
+    "vegetarian": true,
+    "spicy": false,
+    "available": true,
+    "description": "Comforting rice mixed with fresh curd, tempered with mustard and curry leaves."
+  },
+  {
+    "id": 12,
+    "name": "Sambar Rice",
+    "category": "Meals",
+    "price": 100,
+    "vegetarian": true,
+    "spicy": false,
+    "available": true,
+    "description": "Steamed rice mixed with lentil sambar and served with a side of vegetable poriyal."
+  },
+  {
+    "id": 13,
+    "name": "Chicken Biryani",
+    "category": "Biryani",
+    "price": 230,
+    "vegetarian": false,
+    "spicy": true,
+    "available": true,
+    "description": "Fragrant basmati rice slow-cooked with marinated chicken and traditional spices."
+  },
+  {
+    "id": 14,
+    "name": "Mutton Biryani",
+    "category": "Biryani",
+    "price": 290,
+    "vegetarian": false,
+    "spicy": true,
+    "available": true,
+    "description": "Rich and aromatic biryani made with tender mutton pieces and basmati rice."
+  },
+  {
+    "id": 15,
+    "name": "Vegetable Biryani",
+    "category": "Biryani",
+    "price": 170,
+    "vegetarian": true,
+    "spicy": true,
+    "available": true,
+    "description": "Basmati rice cooked with mixed vegetables, herbs, and whole spices."
+  },
+  {
+    "id": 16,
+    "name": "Egg Biryani",
+    "category": "Biryani",
+    "price": 180,
+    "vegetarian": false,
+    "spicy": true,
+    "available": true,
+    "description": "Spiced basmati rice layered with boiled eggs and fried onions."
+  },
+  {
+    "id": 17,
+    "name": "Chettinad Chicken Curry",
+    "category": "Chettinad",
+    "price": 250,
+    "vegetarian": false,
+    "spicy": true,
+    "available": true,
+    "description": "Chicken simmered in a fiery Chettinad masala with roasted spices and coconut."
+  },
+  {
+    "id": 18,
+    "name": "Mutton Sukka",
+    "category": "Chettinad",
+    "price": 300,
+    "vegetarian": false,
+    "spicy": true,
+    "available": true,
+    "description": "Dry-roasted mutton tossed with coconut slivers and Chettinad spice blend."
+  },
+  {
+    "id": 19,
+    "name": "Meen Kuzhambu",
+    "category": "Chettinad",
+    "price": 260,
+    "vegetarian": false,
+    "spicy": true,
+    "available": true,
+    "description": "Tangy tamarind-based fish curry cooked in traditional Chettinad style."
+  },
+  {
+    "id": 20,
+    "name": "Kaara Kuzhambu",
+    "category": "Chettinad",
+    "price": 120,
+    "vegetarian": true,
+    "spicy": true,
+    "available": true,
+    "description": "Spicy tamarind gravy with shallots, ideal with steamed rice."
+  },
+  {
+    "id": 21,
+    "name": "Veg Fried Rice",
+    "category": "Chinese",
+    "price": 150,
+    "vegetarian": true,
+    "spicy": false,
+    "available": true,
+    "description": "Wok-tossed rice with mixed vegetables and soy sauce."
+  },
+  {
+    "id": 22,
+    "name": "Chicken Noodles",
+    "category": "Chinese",
+    "price": 180,
+    "vegetarian": false,
+    "spicy": false,
+    "available": true,
+    "description": "Stir-fried noodles tossed with chicken strips and vegetables in soy sauce."
+  },
+  {
+    "id": 23,
+    "name": "Gulab Jamun",
+    "category": "Desserts",
+    "price": 60,
+    "vegetarian": true,
+    "spicy": false,
+    "available": true,
+    "description": "Soft milk-solid dumplings soaked in warm sugar syrup."
+  },
+  {
+    "id": 24,
+    "name": "Payasam",
+    "category": "Desserts",
+    "price": 70,
+    "vegetarian": true,
+    "spicy": false,
+    "available": false,
+    "description": "Traditional sweet made with rice, jaggery, milk, and cardamom, available on request."
+  },
+  {
+    "id": 25,
+    "name": "Filter Coffee",
+    "category": "Drinks",
+    "price": 40,
+    "vegetarian": true,
+    "spicy": false,
+    "available": true,
+    "description": "Classic South Indian filter coffee brewed with fresh milk and chicory blend."
+  }
+]
